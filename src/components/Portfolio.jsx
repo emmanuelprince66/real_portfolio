@@ -6,6 +6,7 @@ import rlfm from "../images/portfolio/rlfm.png";
 import ochiKit from "../images/portfolio/ochikitchen.png";
 import modernAge from "../images/portfolio/modernAge.png";
 import car from "../images/portfolio/car.png";
+import sDeliveries from "../images/portfolio/s-deliveries.png";
 
 const portfolio = [
   {
@@ -50,13 +51,19 @@ const portfolio = [
     demo: "https://github.com/emmanuelprince66/cars_showcase.git",
     link: "https://cars-showcase-iota-blond.vercel.app/",
   },
+  {
+    id: 8,
+    src: sDeliveries,
+    demo: "https://github.com/emmanuelprince66/s_deliveries.git",
+    link: "https://s-deliveries.vercel.app/",
+  },
 ];
 
 const Portfolio = () => {
   return (
     <div
       name="Portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pb-5"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white  md:h-screen pb-5"
     >
       <div className="max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="p-8">
