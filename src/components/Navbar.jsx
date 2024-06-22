@@ -68,7 +68,16 @@ const Navbar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              {link}
+              <ScrollLink
+                activeClass="active"
+                to={link}
+                spy={true}
+                smooth={true}
+                duration={500}
+                onClick={() => setNav(!nav)}
+              >
+                {link}
+              </ScrollLink>
             </li>
           ))}
         </ul>
